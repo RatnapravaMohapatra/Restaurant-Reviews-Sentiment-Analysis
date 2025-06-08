@@ -1,0 +1,20 @@
+Vectorizer           Classifier  Train Accuracy  ...  Test AUC     Bias  Variance
+0      TF-IDF                  SVM         0.99375  ...   0.85945  0.00625   0.18875
+1         BoW                  SVM         0.97125  ...   0.85515  0.02875   0.17625
+2      TF-IDF  Logistic Regression         0.94875  ...   0.86045  0.05125   0.15375
+3         BoW  Logistic Regression         0.96875  ...   0.87305  0.03125   0.17875
+4      TF-IDF        Random Forest         0.99750  ...   0.83595  0.00250   0.22750
+5         BoW          Naive Bayes         0.94000  ...   0.86935  0.06000   0.17500
+6         BoW        Random Forest         0.99750  ...   0.84345  0.00250   0.24250
+7         BoW              XGBoost         0.85000  ...   0.83470  0.15000   0.09500
+8      TF-IDF              XGBoost         0.90625  ...   0.81235  0.09375   0.15625
+9      TF-IDF        Decision Tree         0.99750  ...   0.74390  0.00250   0.25250
+10     TF-IDF          Naive Bayes         0.95125  ...   0.86435  0.04875   0.20625
+11        BoW        Decision Tree         0.99750  ...   0.71500  0.00250   0.27750
+12     TF-IDF                  KNN         0.85375  ...   0.80395  0.14625   0.13375
+13        BoW                  KNN         0.77875  ...   0.72695  0.22125   0.08375
+14     TF-IDF             LightGBM         0.74875  ...   0.73015  0.25125   0.05375
+15        BoW             LightGBM         0.73000  ...   0.72225  0.27000   0.04500
+
+
+🎯 Best Model: Logistic Regression with BoW (Test AUC: 0.87)
